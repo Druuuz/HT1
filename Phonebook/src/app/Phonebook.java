@@ -84,7 +84,6 @@ public class Phonebook {
                 }
             }
             this.persons.get(id).setPhones(numbers);
-            //this.persons.put(id, );
             return true;
         } else {
             return false;
@@ -103,7 +102,6 @@ public class Phonebook {
             HashMap<String, String> numbers = this.persons.get(id).getPhones();
             numbers.put(insertId, phone);
             this.persons.get(id).setPhones(numbers);
-            //this.persons.put(id, );
             return true;
         } else {
             return false;
